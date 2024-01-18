@@ -1,0 +1,197 @@
+
+  /* Add your global styles here */
+
+.mat-row {
+    margin: 20px; /* Adjust margin as needed */
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .mat-cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }.itemDetails-cell{
+    width: 100px;
+  }
+  
+  .mat-header-cell,
+  .mat-cell {
+    text-align: left;
+  }
+  
+  .row-spacing {
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .mat-header-row,
+  .mat-row {
+    display: flex;
+  }
+  
+  .mat-cell,
+  .mat-header-cell {
+    flex: 1;
+  }
+  
+  /* Optional: Highlight on hover for better user experience */
+  .mat-cell:hover {
+    background-color: #f0f0f0; /* Adjust color as needed */
+  }
+  
+  /* Optional: Style for the form controls when they are invalid */
+  .mat-form-field-invalid {
+    border-color: #ff0000; /* Adjust color as needed */
+  }
+  
+  /* Optional: Style for the error messages */
+  .mat-error {
+    color: #ff0000; /* Adjust color as needed */
+  }
+  .mat-column-name {
+    word-wrap: break-word !important;
+    white-space: unset !important;
+    flex: 0 0 20% !important;
+    width: 10% !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    
+    word-break: break-word;
+    
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    overflow: visible; /* Adjust the overflow property as needed */
+    
+    }
+    .mat-column-position {
+        word-wrap: break-word !important;
+        white-space: unset !important;
+        flex: 0 0 20% !important;
+        width: 10% !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        
+        word-break: break-word;
+        
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+        overflow: visible; /* Adjust the overflow property as needed */
+        
+        }
+    .mat-column-last {
+        word-wrap: break-word !important;
+        white-space: unset !important;
+        flex: 0 0 20% !important;
+        width: 10% !important;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        
+        word-break: break-word;
+        
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+        overflow: visible; /* Adjust the overflow property as needed */
+        
+
+        }
+        .mat-column-email {
+            word-wrap: break-word !important;
+            white-space: unset !important;
+            flex: 0 0 20% !important;
+            width: 10% !important;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            
+            word-break: break-word;
+            
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+            overflow: visible; /* Adjust the overflow property as needed */
+            
+            }
+            .mat-column-address {
+                word-wrap: break-word !important;
+                white-space: unset !important;
+                flex: 0 0 25% !important;
+                width: 20% !important;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                
+                word-break: break-word;
+                
+                -ms-hyphens: auto;
+                -moz-hyphens: auto;
+                -webkit-hyphens: auto;
+                hyphens: auto;
+                overflow: visible; /* Adjust the overflow property as needed */
+                
+                }
+             
+                    .mat-column-actions {
+                        word-wrap: break-word !important;
+                        white-space: unset !important;
+                        flex: 0 0 30% !important;
+                        width: 20% !important;
+                        overflow-wrap: break-word;
+                        word-wrap: break-word;
+                        
+                        word-break: break-word;
+                        
+                        -ms-hyphens: auto;
+                        -moz-hyphens: auto;
+                        -webkit-hyphens: auto;
+                        hyphens: auto;
+                        overflow: visible; /* Adjust the overflow property as needed */
+                        
+                        }
+                        .mat-column-mobileNumber {
+                            word-wrap: break-word !important;
+                            white-space: unset !important;
+                            flex: 0 0 30% !important;
+                            width: 20% !important;
+                            overflow-wrap: break-word;
+                            word-wrap: break-word;
+                            
+                            word-break: break-word;
+                            
+                            -ms-hyphens: auto;
+                            -moz-hyphens: auto;
+                            -webkit-hyphens: auto;
+                            hyphens: auto;
+                            overflow: visible; /* Adjust the overflow property as needed */
+                            
+                            }
+                            .mat-column-select {
+                                word-wrap: break-word !important;
+                                white-space: unset !important;
+                                flex: 0 0 20% !important;
+                                width: 10% !important;
+                                overflow-wrap: break-word;
+                                word-wrap: break-word;
+                                
+                                word-break: break-word;
+                                
+                                -ms-hyphens: auto;
+                                -moz-hyphens: auto;
+                                -webkit-hyphens: auto;
+                                hyphens: auto;
+                                overflow: visible; /* Adjust the overflow property as needed */
+                                
+                                }
+      
+  

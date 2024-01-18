@@ -1,0 +1,39 @@
+.center {
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    left: 30%;
+    top:35%;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content-right {
+    float: right;
+  }
+  
+  .city-card {
+    max-width: 500px;
+  }
+  
+  .city-header-image {
+    background-size: cover;
+  }
+  
+  .width-small{
+    width:200px;
+  }
+  .width-vsmall{
+    width:100px;
+  }
+  .width-tiny{
+    width:75px;
+  }
+  .width-vtiny{
+    width:50px;
+  }
+  

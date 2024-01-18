@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@import 'ngx-toastr/toastr';
+
+
+
+.readonly{
+    background-color: rgba(200, 200, 193, 0.645);
+}
+.primary{
+    background-color: rgb(255, 236, 182);
+}
+.bg-input{
+    background-color: rgba(255,182,193);
+}
+.offcanvas {
+  position: fixed;
+  top: 0;
+  right: -30%; /* Initially off-screen */
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  padding: 20px;
+  transition: right 0.3s ease-in-out;
+}
+
+
+/* input field height testing*/
+.mat-mdc-form-field
+  .mat-mdc-form-field-flex
+  .mdc-notched-outline
+  .mdc-notched-outline__trailing {
+  border-radius: 0 5px 5px 0;
+}
+
+.mat-mdc-form-field
+  .mat-mdc-form-field-flex
+  .mdc-notched-outline
+  .mdc-notched-outline__leading {
+  border-radius: 5px 0 0 5px;
+  width: 15px !important;
+}
+
+.mat-mdc-form-field .mat-mdc-form-field-flex {
+  height: 25px;
+  align-items: center;
+  font-size: 14.5px;
+}
+
+.mat-mdc-form-field
+  .mat-mdc-form-field-flex
+  .mdc-notched-outline
+  .mdc-notched-outline__notch
+  label {
+  top: 50%;
+  font-size: 12.5px; 
+}
+
+.mat-mdc-form-field
+  .mat-mdc-form-field-flex
+  .mdc-notched-outline
+  .mdc-notched-outline__notch
+  label.mdc-floating-label--float-above {
+  top: 25px;
+}
+
+.select-panel {
+  /* border-radius: 20px !important; */
+  /* border: 0px solid rgb(57, 7, 164) !important; */
+  position: absolute !important;
+  top: 4px !important;
+  height: 20rem;
+  font-size: 12.5px;
+ background-color: gray; 
+}
+
+.select-panel mat-option {
+  font-size: 12.5px;
+  /* line-height: 8px;
+  height: 8px; */
+
+}
+.select-panel-content
+{
+  font-size: 12.5px;
+}
+
+.mat-option-text {
+  height: 2em !important;
+  font-size: 10px;
+}
+
+.mat-standard-chip {    
+  height: auto !important;
+}
+.small-chip {
+  height: 20px !important;
+}
+
+
+/* Buttons style by http://nicolasgallagher.com/lab/css3-github-buttons/ Changed by Afshin Mehrabani */
+/* overrides extra padding on button elements in Firefox */
